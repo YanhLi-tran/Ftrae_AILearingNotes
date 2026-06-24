@@ -37,7 +37,7 @@ async def root():
 
 ### **练习**
 
-![image-20260624095534049](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624095534049.png)
+![image-20260624095534049](./images/image-20260624095534049.png)
 
 ```python
 @app.get("/user/hello")
@@ -71,7 +71,7 @@ async def get_book_id(id: int):
 
 #### **练习**
 
-![image-20260624100833176](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624100833176.png)
+![image-20260624100833176](./images/image-20260624100833176.png)
 
 ```python
 @app.get("/user/{id}")
@@ -114,7 +114,7 @@ async def get_book_id(id: int = Path(..., lt)):
 
 ##### **练习**
 
-![image-20260624102244841](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624102244841.png)
+![image-20260624102244841](./images/image-20260624102244841.png)
 
 ```python
 #接口1
@@ -185,7 +185,7 @@ async def get_news_list(
 
 ##### **练习**
 
-![image-20260624105025742](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624105025742.png)
+![image-20260624105025742](./images/image-20260624105025742.png)
 
 ```python
 @app.get("/book")
@@ -230,11 +230,11 @@ async def register(user: User):
 
 输出的部分是在-d当中，如下图：
 
-![image-20260624122537088](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624122537088.png)
+![image-20260624122537088](./images/image-20260624122537088.png)
 
 #### **练习**
 
-![image-20260624122917353](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624122917353.png)
+![image-20260624122917353](./images/image-20260624122917353.png)
 
 ```python
 class Book(BaseModel):
@@ -284,7 +284,7 @@ async def register(user: User):
 
 ##### **练习**
 
-![image-20260624124502605](C:\Users\李彦浩\AppData\Roaming\Typora\typora-user-images\image-20260624124502605.png)
+![image-20260624124502605](./images/image-20260624124502605.png)
 
 ```python
 class Book(BaseModel):
